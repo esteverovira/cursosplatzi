@@ -1,5 +1,5 @@
-const expect = require('mocha').expect
-const platzom = require('..') //require del platzom, va a buscar l'index d'una capa superior
+const expect = require('chai').expect
+const platzom = require('..').default //require del platzom, va a buscar l'index d'una capa superior
 
 describe('#platzom', function(){
     it('Si la palabra termina con "ar", se le quitan esas dos letras',function(){
@@ -12,7 +12,7 @@ describe('#platzom', function(){
     it(' Si la palabra traducida tiene 10 o más letras, se debe partir en dos por la mitad y unir con un guión medio',function(){
         
     })
-    it('',function(){
+    it('hola',function(){
         
     })
 })
