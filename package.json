@@ -4,6 +4,7 @@
   "description": "Traductor de idioma ",
   "main": "index.js",
   "scripts": {
+        "build": "babel src/platzom.js -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/esteverovira/cursosplatzi/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
