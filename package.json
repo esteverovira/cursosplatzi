@@ -1,0 +1,22 @@
+{
+  "name": "cursosplatzi",
+  "version": "0.1.0",
+  "description": "Traductor de idioma ",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esteverovira/cursosplatzi.git"
+  },
+  "keywords": [
+    "platzi",
+    "cursos",
+    "platzom"
+  ],
+  "author": "Esteve Rovira <rovira_135@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esteverovira/cursosplatzi/issues"
+  }
+}
