@@ -4,7 +4,8 @@
   "description": "Traductor de idioma ",
   "main": "dist/src/platzom.js",
   "scripts": {
-        "build": "babel src/platzom.js -d dist"
+    "build": "babel src/platzom.js -d dist",
+    "test":  "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
     "url": "https://github.com/esteverovira/cursosplatzi/issues"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
   }
 }
