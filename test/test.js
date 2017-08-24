@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const platzom = require('..').default //require del platzom, va a buscar l'index d'una capa superior
+const cursosplatzi = require('..').default //require del platzom, va a buscar l'index d'una capa superior
 
 describe('#platzom', function(){
     it('Si la palabra termina con "ar", se le quitan esas dos letras',function(){
